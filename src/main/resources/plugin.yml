@@ -1,0 +1,18 @@
+name: PluginAnalyzer
+version: "1.0"
+main: com.rmpi.organic.pluginanalyzer.PluginAnalyzer
+api: 1.0.0
+author: RMPI
+description: Analyzes plugins
+commands:
+    플러그인분석:
+        permission: pluginanalyzer.op
+        description: 플러그인들을 분석합니다
+        usage: /플러그인분석
+    예외목록리로드:
+        permission: pluginanalyzer.op
+        description: 예외 목록을 리로드합니다
+        usage: /예외목록리로드
+permissions:
+    pluginanalyzer.op:
+        default: op
